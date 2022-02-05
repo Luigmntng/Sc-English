@@ -839,6 +839,10 @@ anu = await fetchJson(`https://apidhani.herokuapp.com/api/download/tiktokwm?url=
 tiktok = await getBuffer(anu.video_URL.vid_wm)
 Dhani.sendMessage(from, tiktok, video, {quoted: mek, caption : 'Done bro'})
 break
+case 'waifu' :
+anu = await fetchJson(`https://apidhani.herokuapp.com/api/anime/waifu?apikey=NisaaCantik`)
+Dhani.sendMessage(from, anu, image, { quoted : mek })
+break
 
 //━━━━[ Feature Sticker ]━━━━//
 
