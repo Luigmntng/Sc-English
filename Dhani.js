@@ -841,7 +841,7 @@ Dhani.sendMessage(from, tiktok, video, {quoted: mek, caption : 'Done bro'})
 break
 case 'waifu' :
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/anime/waifu?apikey=NisaaCantik`)
-Dhani.sendMessage(from, anu, image, { quoted : mek })
+Dhani.sendMessage(from, anu, url, { quoted : mek })
 break
 
 //━━━━[ Feature Sticker ]━━━━//
